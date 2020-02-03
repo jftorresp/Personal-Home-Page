@@ -1,87 +1,103 @@
+/*====================
+  Body
+  ====================== */
 body  {
   background-image: url("paper.gif");
   background-color: #cccccc;
 }
 
+
+/* Knowledge  */
+#Knowledge {
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/* list  */
+.list-group{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 15pt;
+}
+
+/* programming  */
+#Programming {
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/* Table */
 table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
   }
-  
+
+  table {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 15pt;
+  }
+
+  /* All the th and td from the table*/
   th, td {
     text-align: center;
     padding: 16px;
   }
   
+   /* All the th and td  first child from the table*/
   th:first-child, td:first-child {
     text-align: left;
   }
   
+   /* All the tr nyh-child from the table*/
   tr:nth-child(even) {
     background-color: #f2f2f2
   }
   
+ /* All the fa-check*/  
 .fa-check {
     color: green;
 }
-  
+ 
+ /* All the fa-remove*/
 .fa-remove {
     color: red;
 }
 
+/* Projectst  */
 #Projects .col-sm-6 {
-    margin: 0;
-    padding: 25px;
+  margin: 0;
+  padding: 25px;
 }
-
-h1{
-  font-family: 'Sigmar One', cursive;
-}
-
-
-
-#Knowledge {
-  padding: 10px;
-  margin-top: 40px;
-}
-
-.list-group{
-  font-family: 'Cantarell', sans-serif;
-  font-size: 15pt;
-}
-
-
-#Programming {
-  padding: 10px;
-  margin-top: 40px;
-}
-
-table {
-  font-family: 'Cantarell', sans-serif;
-  font-size: 15pt;
-}
-
 
 #Projects {
   padding: 10px;
   margin-top: 40px;
 }
 
+#Projects img {
+  width: 75%;
+  height: 250px;
+  display:block;
+  margin:auto;
+}
+
+#Projects img:hover {
+  border: 5px solid #f7f7f7 ;
+}
+
+/* All the h1 */
+h1{
+  font-family: 'Sigmar One', cursive;
+}
+
+
+/* All the parrafos from projects section */
 .parrafosp{
   font-family: 'Cantarell', sans-serif;
   font-size: 15pt;
   text-align: justify;
 }
 
-#Projects img {
-    width: 75%;
-    height: 250px;
-    display:block;
-    margin:auto;
-}
 
-#Projects img:hover {
-    border: 5px solid #f7f7f7 ;
-}
+

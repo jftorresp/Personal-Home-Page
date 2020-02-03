@@ -1,6 +1,6 @@
 "use strict";
  
- function changeText(value) {
+ function mostrarTexto(value) {
     var div = document.getElementById("div");
     var text = "";
     if (value == 1) text += " 2001-2015 : Gimnasio los ocobos is located in Villavicencio. Here I did all my studies as a schoolboy.";

@@ -1,39 +1,39 @@
+/*====================
+  Body
+  ====================== */
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}  
 
-h1{
-    font-family: 'Sigmar One', cursive;
+/* Banner  */  
+#panoramica  {
+      width: 1500px ; 
+      height: 400px ;
+      max-width: 100%;
 }
-
-.parrafos{
-    font-family: 'Cantarell', sans-serif;
-    font-size: 15pt;
-    text-align: justify;
-}
-
-.parrafosHobbie{
-    font-family: 'Coming Soon', cursive;
-    font-size: 15pt;
-    text-align: justify;
-}
-
-
+  
+/* who i am  */
 #Who-i-am {
-padding: 10px;
-margin-top: 40px;
+    padding: 10px;
+    margin-top: 40px;
 }
+
+/* Education  */
 #Education {
-padding: 10px;
-margin-top: 40px;
+    padding: 10px;
+    margin-top: 40px;
 }
+
+#Education img:hover {
+    border: 5px solid #f7f7f7 ;
+}
+
+/* Hobbies  */
 #Hobbies {
-padding: 10px;
-margin-top: 40px;
+    padding: 10px;
+    margin-top: 40px;
 }
-#Contact {
-padding: 10px;
-margin-top: 40px;  
-}
-
-
 
 #Hobbies .col-sm-4 {
     margin: 0;
@@ -49,28 +49,39 @@ margin-top: 40px;
     border: 5px solid #f7f7f7 ;
 }
 
-#Education img:hover {
-    border: 5px solid #f7f7f7 ;
+/* Contact  */
+#Contact {
+    padding: 10px;
+    margin-top: 40px;  
 }
-
-body {
-    background-image: url("paper.gif");
-    background-color: #cccccc;
-   }
 
 #contact {   
     width: 85%;
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
+/* All the h1 */
+h1{
+    font-family: 'Sigmar One', cursive;
+}
+
+/* All the parrafos */
+.parrafos{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+/* All the parrafos from hobbies section */
+.parrafosHobbie{
+    font-family: 'Coming Soon', cursive;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+/* All the rounded images */
 img.rounded{
     width: 320px; height: 275px;
   }
 
-#panoramica
-{
-    width: 1500px ; 
-    height: 400px ;
-    max-width: 100%;
-}  
+  
