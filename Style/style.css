@@ -1,0 +1,65 @@
+
+
+
+
+
+h1{
+    font-family: 'Sigmar One', cursive;
+}
+
+
+.parrafos{
+    font-family: 'Cantarell', sans-serif;;
+}
+
+#Who-i-am {
+   
+}
+#Student-life {
+    
+}
+#Hobbies {
+    
+}
+#Contact {
+    
+}
+
+
+
+
+#Hobbies .col-sm-4 {
+    margin: 0;
+    padding: 25px;
+}
+
+#Hobbies img {
+    width: 100%;
+    height: 250px;
+}
+
+#Hobbies img:hover {
+    border: 5px solid #f7f7f7 ;
+}
+
+
+
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+   }
+
+#contact {   
+    width: 85%;
+    background-size: cover;
+    
+}
+
+img.rounded{
+    width: 320px; height: 275px;
+  }
+
+#panoramica
+{
+    width: 1500px ; height: 400px ;
+}  
