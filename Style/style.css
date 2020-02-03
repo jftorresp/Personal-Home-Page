@@ -68,5 +68,7 @@ img.rounded{
 
 #panoramica
 {
-    width: 1500px ; height: 400px ;
+    width: 1500px ; 
+    height: 400px ;
+    max-width: 100%;
 }  
