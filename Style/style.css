@@ -1,6 +1,11 @@
 /*====================
   Body
   ====================== */
+
+/* Juan Felipe Torres: Buen uso de la hoja de estilos CSS, buena documentación y pues se nota que se tomó el tiempo para
+ aplicarle los estilos a la página. Recomendaría que todas las fotos tengan buena calidad y no sé, puede ser que con el 
+ CSS, dividir la visual de la página en secciones para que no se vea todo en un fondo, sino que cada parte esté seccionada
+ o por lo menos el footer.*/
 body {
     background-image: url("paper.gif");
     background-color: #cccccc;
