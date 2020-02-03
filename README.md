@@ -22,4 +22,4 @@ There are 2 different ways you can run my website
   
 ### License 
   
-  This project has the standard MIT license. This is the link where you can find it here * [License](https://github.com/sebastianvaca99))
+  This project has the standard MIT license. This is the link where you can find it here * [License](https://github.com/sebastianvaca99/Personal-Home-Page/blob/master/LICENSE)
