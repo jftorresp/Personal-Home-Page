@@ -1,4 +1,5 @@
-
+"use strict";
+ 
  function changeText(value) {
     var div = document.getElementById("div");
     var text = "";
