@@ -1,6 +1,13 @@
 "use strict";
 
+ // Juan Felipe Torres: Me pareció super útil la función, funciona bien y pues hace un poco más dinámica la página.//
+ // Faltó documentar la función, yo lo pondría así:
+
  // eslint-disable-next-line no-unused-vars
+/** Función que muestra cierto texto en la pñagina dependiendo del valor que tome el div, en este caso el valor pasa por´
+ * Parámetro y se asigna en el onclick() del elemento HTML.
+ * Value. Valor entre 1-3 que determina que texto poner.
+ */
  function mostrarTexto(value) {
     var div = document.getElementById("div");
     var text = "";
